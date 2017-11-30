@@ -1,3 +1,7 @@
+plugins {
+    id 'net.researchgate.release' version '2.6.0'
+}
+
 apply plugin: "java"
 
 group = "uk.gov.ida"
@@ -20,6 +24,11 @@ dependencies {
 
 apply plugin: 'maven-publish'
 
+release {
+    git {
+        requireBranch = 'release-test'
+    }
+}
 task sourceJar(type: Jar) {
     from sourceSets.main.allJava
 }
