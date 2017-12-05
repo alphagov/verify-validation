@@ -1,0 +1,85 @@
+[33mcommit cde906ddc5ea463f478ddf2bb1464960bc9cb45c[m
+Author: Gary Watson <gary.watson@digital.cabinet-office.gov.uk>
+Date:   Tue Dec 5 14:40:33 2017 +0000
+
+    EID-305: Fixed publish of validation artifact.
+    
+    Authors: @lamerexter @adityapahuja
+
+[33mcommit ec5591e8f4e36cefff2a095042522bf8c7f59101[m
+Merge: 77b92c9 ee80401
+Author: Gary Watson <gary.watson@digital.cabinet-office.gov.uk>
+Date:   Tue Dec 5 13:08:05 2017 +0000
+
+    Merge remote-tracking branch 'origin/initial'
+
+[33mcommit 77b92c9705a83b0cfe0ee38646b58b6f9f216c95[m
+Author: Gary Watson <gary.watson@digital.cabinet-office.gov.uk>
+Date:   Tue Dec 5 12:59:15 2017 +0000
+
+    EID-305: Fixed release repo name.
+    
+    Authors: @lamerexter @twlr
+
+[33mcommit 4642830b606f542d9de0e12b6c4cc03a97da1316[m
+Author: Gary Watson <gary.watson@digital.cabinet-office.gov.uk>
+Date:   Tue Dec 5 12:29:23 2017 +0000
+
+    EID-305: Corrected publish repo.
+    
+    Authors: @lamerexter @twlr
+
+[33mcommit e5681092ee4ff85783ebce28388fa1e9eb59af3a[m
+Author: Gary Watson <gary.watson@digital.cabinet-office.gov.uk>
+Date:   Tue Dec 5 12:22:06 2017 +0000
+
+    EID-305: Removed reference to release-test branch.
+    
+    Authors: @lamerexter @tlwr
+
+[33mcommit 28aab3c378cc8986042463684d15ac897a2db100[m
+Author: Gary Watson <gary.watson@digital.cabinet-office.gov.uk>
+Date:   Fri Dec 1 14:36:55 2017 +0000
+
+    EID-300: Added banner.
+
+[33mcommit 612d52c6b8157ce1ddfecc3a61a375ca913ed8ff[m
+Merge: 5eb9b27 3a9fd8d
+Author: IreneLau-GDS <irene.lau@digital.cabinet-office.gov.uk>
+Date:   Fri Dec 1 14:00:02 2017 +0000
+
+    Merge pull request #1 from alphagov/eid-300
+    
+    EID-300: Bring validation code into alpha gov repo
+
+[33mcommit 3a9fd8d03086263384ffea8a6c9da99ce489fe95[m
+Author: Gary Watson <gary.watson@digital.cabinet-office.gov.uk>
+Date:   Fri Dec 1 11:22:04 2017 +0000
+
+    EID-300: Added README.md
+    
+    Solo: @lamerexter
+
+[33mcommit 580a7455ec885decc9d9df47cdd0480be8cb2440[m
+Author: Gary Watson <gary.watson@digital.cabinet-office.gov.uk>
+Date:   Fri Dec 1 10:08:19 2017 +0000
+
+    EID-300: Bring validation code into alpha gov repo
+    
+    Solo: @lamerexter
+
+[33mcommit ee80401d8ef59f7f52df5f1a4eeaa5e54d22f4ab[m
+Author: Gary Watson <gary.watson@digital.cabinet-office.gov.uk>
+Date:   Wed Nov 29 16:23:59 2017 +0000
+
+    EID-300: Initial revision.
+    
+    Authors: @lamerexter @IreneLau_GDS
+
+[33mcommit 5eb9b27cbcf4501cdd1531ae6a72d79e163fcb8f[m
+Author: Gary Watson <gary.watson@digital.cabinet-office.gov.uk>
+Date:   Wed Nov 29 16:23:59 2017 +0000
+
+    EID-300: Initial revision.
+    
+    Authors: @lamerexter @IreneLau_GDS

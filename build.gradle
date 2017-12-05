@@ -3,6 +3,7 @@ plugins {
 }
 
 apply plugin: "java"
+apply from: 'publish.gradle'
 
 group = "uk.gov.ida"
 
@@ -21,28 +22,13 @@ dependencies {
             'org.mockito:mockito-all:1.9.5'
 }
 
-apply plugin: 'maven-publish'
+release {
+    git {
+        requireBranch = ''
+        pushToRemote = 'origin'
+    }
+}
 
 task sourceJar(type: Jar) {
     from sourceSets.main.allJava
-}
-
-publishing {
-    repositories {
-        maven {
-            url 'https://artifactory.ida.digital.cabinet-office.gov.uk/artifactory/whitelisted-repos/'
-        }
-    }
-
-    publications {
-        mavenJava(MavenPublication) {
-            from components.java
-
-            artifactId = "validation"
-
-            artifact sourceJar {
-                classifier "sources"
-            }
-        }
-    }
 }
