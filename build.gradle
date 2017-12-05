@@ -23,11 +23,6 @@ dependencies {
 
 apply plugin: 'maven-publish'
 
-release {
-    git {
-        requireBranch = 'release-test'
-    }
-}
 task sourceJar(type: Jar) {
     from sourceSets.main.allJava
 }
