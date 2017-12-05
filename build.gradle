@@ -3,6 +3,7 @@ plugins {
 }
 
 apply plugin: "java"
+apply from: 'publish.gradle'
 
 group = "uk.gov.ida"
 
@@ -27,22 +28,23 @@ task sourceJar(type: Jar) {
     from sourceSets.main.allJava
 }
 
-publishing {
-    repositories {
-        maven {
-            url 'https://artifactory.ida.digital.cabinet-office.gov.uk/artifactory/whitelisted-repos/'
-        }
-    }
-
-    publications {
-        mavenJava(MavenPublication) {
-            from components.java
-
-            artifactId = "validation"
-
-            artifact sourceJar {
-                classifier "sources"
-            }
-        }
-    }
-}
+//publishing {
+//    repositories {
+//        maven {
+//            url "/srv/maven"
+//            url 'https://artifactory.ida.digital.cabinet-office.gov.uk/artifactory/whitelisted-repos/'
+//        }
+//    }
+//
+//    publications {
+//        mavenJava(MavenPublication) {
+//            from components.java
+//
+//            artifactId = "validation"
+//
+//            artifact sourceJar {
+//                classifier "sources"
+//            }
+//        }
+//    }
+//}
