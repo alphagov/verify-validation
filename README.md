@@ -1,4 +1,3 @@
-
 # Validation
 
 Library for performing validation on arbitrary objects.  
