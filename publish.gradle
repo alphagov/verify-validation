@@ -7,7 +7,7 @@ publishing {
 
             groupId = "uk.gov.ida"
             artifactId = "validation"
-            version = version
+            version = "$version-${System.env.BUILD_NUMBER ?: 'SNAPSHOT'}"
 
             artifact sourceJar {
                 classifier "sources"
