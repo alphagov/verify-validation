@@ -54,3 +54,10 @@ Validator classes provided out-of-the-box:
 [MIT Licence](LICENCE)
 
 This code is provided for informational purposes only and is not yet intended for use outside GOV.UK Verify
+
+Support and raising issues
+--------------------------
+
+If you think you have discovered a security issue in this code please email [disclosure@digital.cabinet-office.gov.uk](mailto:disclosure@digital.cabinet-office.gov.uk) with details.
+
+For non-security related bugs and feature requests please [raise an issue](https://github.com/alphagov/verify-validation/issues/new) in the GitHub issue tracker.
