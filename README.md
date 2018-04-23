@@ -1,6 +1,8 @@
 
 # Validation
 
+[![Build Status](https://travis-ci.org/alphagov/verify-validation.svg?branch=master)](https://travis-ci.org/alphagov/verify-validation)
+
 Library for performing validation on arbitrary objects.  
 
 ```
